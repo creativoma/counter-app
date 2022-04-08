@@ -8,7 +8,7 @@ function increment() {
 }
 
 function save() {
-    let countStr = `Previusly saved: ${count}`;
+    let countStr = `Previous saved: ${count}`;
     saveEl.innerText = countStr;
     countEl.textContent = 0
     count = 0
